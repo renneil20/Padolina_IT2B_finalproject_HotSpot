@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE final_project [
+	<!ELEMENT final_project (hot_spot)>
+	<!ELEMENT hot_spot (title, description, spicy_foods, k_name, e_name, drinks, popular, price, box, food_recipes, ingredients, instructions, drink_recipes, dessert_recipes, reviews, name, message, email, facebook, instagram, youtube,twitter)>
+
+	<!ELEMENT hot_spot (#PCDATA)>
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT spicy_foods (#PCDATA)>
+	<!ELEMENT k_name (#PCDATA)>
+	<!ELEMENT e_name (#PCDATA)>
+	<!ELEMENT drinks (#PCDATA)>
+	<!ELEMENT popular (#PCDATA)>
+	<!ELEMENT price (#PCDATA)>
+	<!ELEMENT box (#PCDATA)>
+	<!ELEMENT food_recipes (#PCDATA)>
+	<!ELEMENT ingredients (#PCDATA)>
+	<!ELEMENT instructions (#PCDATA)>
+	<!ELEMENT drink_recipes (#PCDATA)>
+	<!ELEMENT dessert_recipes (#PCDATA)>
+	<!ELEMENT reviews (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT message (#PCDATA)>
+	<!ELEMENT email (#PCDATA)>
+	<!ELEMENT facebook (#PCDATA)>
+	<!ELEMENT instagram (#PCDATA)>
+	<!ELEMENT youtube (#PCDATA)>
+	<!ELEMENT twitter (#PCDATA)>
+
+	<!ATTLIST hot_spot page CDATA #REQUIRED>
+	<!ATTLIST spicy_foods number CDATA #REQUIRED>
+	<!ATTLIST desserts number CDATA #REQUIRED>
+	<!ATTLIST drinks number CDATA #REQUIRED>
+	<!ATTLIST popular number CDATA #REQUIRED>
+	<!ATTLIST food_recipes number CDATA #REQUIRED>
+	<!ATTLIST drink_recipes number CDATA #REQUIRED>
+	<!ATTLIST dessert_recipes number CDATA #REQUIRED>
+	<!ATTLIST reviews user CDATA #REQUIRED> 
+
+
+]>
+
+
+<final_project>
+
+	<hot_spot page="home">
+		<title>Hot Spot Korean Spicy Foods</title>
+		<description>Hot spot is an ordering website application with affordable prices that you can enjoy. If you love to eat and crave for spicy foods, Hot Spot can provide you that. We showcase some of the famous Korean Spicy dishes, we also added a few drinks and desserts that will be a perfect match for eating a spicy food.</description>
+	</hot_spot>
+
+	<hot_spot page="foods">
+		<spicy_foods number="one">
+		<k_name>Tteokbokki 떡볶이</k_name>
+		<e_name>Hot and spicy rice cake</e_name>
+		<description>Tteokbokki, or simmered rice cake, is a popular Korean food made from small-sized garae-tteok called tteokmyeon or commonly tteokbokki-tteok. Eomuk, boiled eggs, and scallions are some common ingredients paired with tteokbokki in dishes. Tteokbokki is a crowd favorite when it comes to Korean street food: featuring fish cakes and rice cakes covered in an aromatic sweet and spicy sauce, there’s a lot to love about this dish. It’s no surprise that this spicy Korean food is as popular among Koreans as it is!</description>
+		</spicy_foods>
+
+		<spicy_foods number="two">
+		<k_name>Nakji-bokkeum 낙지볶음</k_name>
+		<e_name>Stir-fried octopus</e_name>
+		<description>Nakji-bokkeum or stir-fried octopus is a popular dish in Korea that is relatively recent, with origins dating back only two centuries and first being introduced in 1965. Octopus tentacles are cut into bite-sized pieces then pan stir-fried with spicy gochujang, Nakji bokkeum is a classic favorite among seafood lovers and can be found on most menus of Korean restaurants.</description>
+		</spicy_foods>
+
+		<spicy_foods number="three">
+		<k_name>Chikin</k_name>
+		<e_name>Korean Fried Chicken</e_name>
+		<description>Korean Fried Chicken are usually double fried until extra crispy, then smothered in a sticky, sweet and spicy sauce. Some of the key ingredients to make the sauce is gochujang, soy sauce, garlic and ginger.</description>
+		</spicy_foods>
+
+		<spicy_foods number="four">
+		<k_name>Ramyeon 라면</k_name>
+		<e_name>Korean ramen</e_name>
+		<description>Ramyeon is a noodle dish that all Koreans are VERY well acquainted with – it’s easy to make, can be dressed up with anything in your fridge, and you can even throw in a hard-boiled egg. This is one of the Korean dishes that are very inexpensive, making it the perfect “It’s only Wednesday and I don’t get paid until Friday” meal!</description>
+		</spicy_foods>
+	</hot_spot>
+
+	<hot_spot page="desserts">
+		<desserts number="one">
+		<k_name>Yakgwa (약과; 藥菓)</k_name>
+		<description>Also called gwajul (과줄), is a type of yumil-gwa, which is deep-fried, wheat-based hangwa (Korean confection) made with honey, cheongju (rice wine), sesame oil, and ginger juice. Traditionally, the sweet was offered in a jesa (ancestral rite) and enjoyed on festive days such as chuseok (harvest festival), marriages, or hwangap (sixtieth-birthday) celebrations. In modern South Korea, it is also served as a dessert and can be bought at traditional markets or supermarkets.</description>
+		</desserts>
+
+		<desserts number="two">
+		<k_name>SONGPYEON (RICE CAKES)</k_name>
+		<description>Songpyeon is a traditional Korean food made of rice powder. It is a type of tteok, small rice cakes, traditionally eaten during the Korean autumn harvest festival, Chuseok. It is a popular symbol of traditional Korean culture. The earliest records of songpyeon date from the Goryeo period. </description>
+		</desserts>
+
+		<desserts number="three">
+		<k_name>Yaksik (Sweet Rice with Dried Fruits and Nuts)</k_name>
+		<description>Yaksik (약식) is a type of rice cake that’s made with sweet rice (aka glutinous rice) as well as nuts and dried fruit such as chestnuts, jujubes (daechu, 대추), and pine nuts (jat, 잣). It’s a delicious dessert or snack that’s healthy and filling!</description>
+		</desserts>
+
+		<desserts number="four">
+		<k_name>Dalgona (달고나)</k_name>
+		<description>Dalgona or ppopgi is a Korean candy made with melted sugar and baking soda. It was a popular street snack in the 1970s and 1980s, and is still eaten as a retro food.</description>
+		</desserts>
+	</hot_spot>
+
+	<hot_spot page="drinks">
+		<drinks number="one">
+		<k_name>Soju</k_name>
+		<description>Soju is a clear, colorless distilled alcoholic beverage that is widely associated with the drinking culture of Korea. It is usually consumed neat, and its alcohol content varies from about 12.9% to 53% alcohol by volume.</description>
+		</drinks>
+
+		<drinks number="two">
+		<k_name>Strawberry Milk</k_name>
+		<description>Strawberry milk (생딸기우유) is an incredibly popular drink in Korea that is made with 100% real ingredients, to bring out the natural flavors of strawberries as opposed to using any artificial flavorings.</description>
+		</drinks>
+
+		<drinks number="three">
+		<k_name>Milkis</k_name>
+		<description>Milkis is a South Korean soft drink produced by Lotte Chilsung, a company which released the beverage in 1989, labeling it as a milk and yogurt soda. Some like to describe it as a melting mousse made with frozen yogurt. It is made with carbonated water, corn syrup, sugar, and milk.</description>
+		</drinks>
+
+		<drinks number="four">
+		<k_name>Hwachae Drink</k_name>
+		<description>Hwachae is a general term for traditional Korean punches, made with various fruits or edible flower petals. The fruits and flowers are soaked in honeyed water or honeyed magnolia berry juice. In modern South Korea, carbonated drinks and/or fruit juices are also commonly added to hwachae.</description>
+		</drinks>
+	</hot_spot>
+
+	<hot_spot page="popular">
+		<popular number="one">
+		<price>1,000 - 1,300 KRW</price>
+		<k_name>Ramyeon</k_name>
+		<box>Order Now</box>
+		</popular>
+
+		<popular number="two">
+		<price>1,000 - 8,000 KRW</price>
+		<k_name>Tteokbokki</k_name>
+		<box>Order Now</box>
+		</popular>
+
+		<popular number="three">
+		<price>7000 – 12000 KRW</price>
+		<k_name>Donkatsu</k_name>
+		<box>Order Now</box>
+		</popular>
+
+		<popular number="four">
+		<price>1500 KRW</price>
+		<k_name>Soju</k_name>
+		<box>Order Now</box>
+		</popular>
+
+		<popular number="five">
+		<price>2000 KRW</price>
+		<k_name>Buldak</k_name>
+		<box>Order Now</box>
+		</popular>
+
+		<popular number="six">
+		<price>$6-7</price>
+		<k_name>Strawberry Milk</k_name>
+		<box>Order Now</box>
+		</popular>
+
+		<popular number="seven">
+		<price>1200 KRW</price>
+		<k_name>Yakgwa</k_name>
+		<box>Order Now</box>
+		</popular>
+	</hot_spot>
+
+	<hot_spot page="food_recipes">
+		<food_recipes number="one">
+		<k_name>Tteokbokki 떡볶이</k_name>
+		<e_name>Hot and spicy rice cake</e_name>
+		<ingredients>(Main) 1. 350g / 12 ounces Korean rice cakes, separated. 2. 150g / 5.3 ounces Korean fish cakes, rinsed over hot water and cut into bite size pieces. 3. 2 cups Korean soup stock (dried kelp and dried anchovy stock), use this recipe. 4. 60g / 2 Ounces onion, thinly sliced. 
+		(TTEOKBOKKI SAUCE) 1. 3 Tbsp gochujang (Korean chili paste). 2. 1 1/2 Tbsp raw sugar. 3. 1 Tbsp soy sauce. 4. 1 tsp minced garlic. 5. 1 tsp gochugaru (Korean chili flakes). (GARNISH) 1. 1 tsp roasted sesame seeds. 2. 1 tsp sesame oil. 3. 1 stalk green onion, finely chopped.</ingredients>
+		<instructions>1. Unless your rice cakes are soft already, soak them in warm water for 10 mins. 2. Boil the soup stock in a shallow pot over medium high heat and dissolve the tteokbokki sauce by stirring it with a spatula. Once the seasoned stock is boiling, add the rice cakes, fish cakes and onion. Boil them a further 3 to 5 mins until the rice cakes are fully cooked. Then, to thicken the sauce and to deepen the flavor, simmer it over low heat for a further 2 to 4 mins. 3. Add the sesame oil, sesame seeds, and green onion then quickly stir. Serve warm.</instructions>
+		</food_recipes>
+
+		<food_recipes number="two">
+		<k_name>Nakji-bokkeum 낙지볶음</k_name>
+		<e_name>Stir-fried octopus</e_name>
+		<ingredients>1. 1 package (1½ pounds) of frozen long arm octopus, thawed out in the refrigerator. 2. 2 tablespoons flour (or salt). 3. 7 garlic cloves, minced. 4. 2 teaspoons minced ginger. 5. 1 Korean spicy green chili pepper (or jalapeño), chopped. 6. 4 ounces onion, chopped. 7. 1 large Korean green onion (or 4 green onions), chopped. 8. 2 to 3 tablespoons vegetable oil. 9. 1 teaspoon toasted sesame oil. (For seasonings) 1. ¼ cup Korean hot pepper flakes (gochugaru). 2. 3 tablespoons soy sauce. 3. 1 tablespoon sugar. 4. 1 tablespoon potato starch (or cornstarch). 5. ¼ cup rice syrup. 6. ½ teaspoon ground black pepper.</ingredients>
+		<instructions>(HOW TO HANDLE THE NAKJI) 1. Cut open the heads and remove the intestines and beaks. 2. Put in a large bowl. Add flour and scrub vigorously for about 2 minutes until it foams. This process not only tenderizes the octopus but also cleans any dirt or mud stuck in the suckers. 3. Rinse in cold running water until it’s not slippery anymore. Drain. 4. Bring a pot of water to a boil. Blanch the octopus for 10 to 12 seconds, drain, and then transfer to a cutting board. 5. Cut the heads and arms into bite size pieces. Set aside. (MAKE SEASONING SAUCE) 1. Combine all the seasoning ingredients (hot pepper flakes, soy sauce, sugar, potato starch, rice syrup and ground black pepper) in a small bowl. 2. Mix well with a spoon. (STIR-FRY) 1. Heat up a large pan over high heat. Add vegetable oil. 2. Stir in garlic, ginger, green chili pepper, onion, and green onion for about 3 minutes until the garlic turns a little brown and the onion translucent. 3. Add nakji and seasoning sauce. Stir for 2 to 3 minutes. 4. Remove from the heat and stir in sesame oil. Transfer it to a serving plate and serve right away with rice.</instructions>
+		</food_recipes>
+
+		<food_recipes number="three">
+		<k_name>Chikin</k_name>
+		<e_name>Korean Fried Chicken</e_name>
+		<ingredients>1. 10 chicken wings, or drumettes. 2. 1 cup cornstarch(125 g). 3. oil, for frying. 4. sesame seed, to serve. (BATTER) 1. ½ cup cornstarch(65 g). 2. ½ cup flour(65 g). 3. 2 teaspoons salt. 4. 1 cup water(240 mL). (SAUCE) 1. 2 tablespoons soy sauce. 2. ¼ cup honey(85 g). 3. 2 tablespoons rice vinegar. 4. 2 tablespoons gochujang, (Korean chili paste). 5. 2 cloves garlic, minced. 6. 1 tablespoon ginger, grated</ingredients>
+		<instructions>1. Mix the ingredients for the batter in a bowl until smooth with no lumps. 2. Heat oil in a pot to 340°F (170°C). 3. Dip a chicken wing into the cornstarch, shaking off excess, then dredge the wing into the batter, dripping off excess. 4. Fry half of the wings at a time for about 5-7 minutes, until light golden. The oil will drop to about 320°F (160°C). 5. Drain the wings and increase the heat. Heat oil to about 375°F (190°C). 6. Fry the wings a second time until golden brown and crispy. Drain and set aside. 7. In a pan, combine all the ingredients for the sauce and stir until bubbling. Toss in the wings. 8. Nutrition Calories: 2805 Fat: 254 grams Carbs: 131 grams Fiber: 1 grams Sugars: 49 grams Protein: 8 grams. 9. Enjoy!</instructions>
+		</food_recipes>
+
+		<food_recipes number="four">
+		<k_name>Ramyeon 라면</k_name>
+		<e_name>Korean ramen</e_name>
+		<ingredients>1. 1 package of Korean ramyeon, 2. 2½ cups water, 3. 1 egg, 4. 2 green onions, chopped</ingredients>
+		<instructions>1. Bring the water to a boil over high heat. 2. Add the noodles and the included soup powder to the boiling water. Cover and boil for 1 minute. 3. Open the lid and turn the ramyeon over with a spoon. 4. Crack the egg directly into the boiling ramyeon, and cover and cook for 1 to 2 minutes. Don’t stir, so the egg will be poached. 5. Remove from the heat. Open the lid and add the green onions and the included package of dried vegetables. Serve with kimchi and rice.</instructions>
+		</food_recipes> 
+	</hot_spot>
+
+	<hot_spot page="drink_recipes">
+		<drink_recipes number="one">
+		<e_name>Soju</e_name>
+		<ingredients>(I can't find some ingredients of it in the Internet, I think it is a part of the company's tradesecret)</ingredients>
+		<instructions>I can't find some ingredients of it in the Internet, I think it is a part of the company's tradesecret)</instructions>
+		</drink_recipes>
+
+	<drink_recipes number="two">
+		<e_name>Strawberry Milk</e_name>
+		<ingredients>(STRAWBERRY PUREE): 1. 1 cup (8-10) fresh strawberries stems removed. 2. 1/2 cup sweetened condensed milk can be substituted with honey, maple syrup, or sugar. (TO SERVE: per each cup) 1. 1/2 cup strawberry puree or more. 2. 1 1/2 cup milk of choice; dairy or non-dairy, 3. 1/4 cup (2-3) fresh strawberries diced</ingredients>
+		<instructions>1. Puree the strawberries using a masher, blender, or food processor. Once the strawberries are pureed, mix in the condensed milk until well combined. 2. To serve, add the strawberry puree, milk, and diced strawberries to each serving cup. Mix well to combine and enjoy!</instructions>
+		</drink_recipes>
+
+		<drink_recipes number="three">
+		<e_name>Milkis</e_name>
+		<ingredients>(I can't find some ingredients of it in the Internet, I think it is a part of the company's tradesecret)</ingredients>
+		<instructions>(I can't find some ingredients of it in the Internet, I think it is a part of the company's tradesecret)</instructions>
+		</drink_recipes>
+
+		<drink_recipes number="four">
+		<e_name>Hwachae Drink</e_name>
+		<ingredients>1. 1/4 seedless watermelon, balled or cubed. 2. 1 1/2 cup milk. 3. 2 1/2 cup lemon-lime flavored soda, chilled. 4. 2-4 tbsp sweet condensed milk, honey or sugar. 5. blueberries to garnish, optional</ingredients>
+		<instructions>1. Place watermelon pieces (and its juice) in a large serving bowl. 2. Mix milk and condensed milk in another bowl and add soda; stir. Pour the punch mixture over watermelon. Garnish with blueberries if using. 3. To serve, ladle watermelon punch into a small individual serving bowl. Serve immediately or chill up to 2 hours. 4. Leftover punch can be stored in the refrigerator up to 24 hours.</instructions>
+		</drink_recipes>
+	</hot_spot>
+
+	<hot_spot page="dessert_recipes">
+		<dessert_recipes number="one">
+		<e_name>Yakgwa</e_name>
+		<ingredients>(FOR DOUGH) 1. 3 cup all-purpose flour (medium-protein flour), 2. 1/3 cup sesame oil, 3. 1/3 cup soju, 4. 1/3 cup honey, 5. 1/4 cup chopped pine nuts, 6. 1/4 tsp salt (optional – original recipe omits salt). (FOR SYRUP:) 1. 1 cup rice syrup (jochung 조청 – if not available, you can substitute honey), 2. 1 cup honey, 3. 2 cup water, 4. 1 Tbsp ginger (grated, 1 -2 tsp ginger powder is OK too)</ingredients>
+		<instructions>1.Prepare oil for frying. Note for Yakgwa, we want to start frying at a low temperature. 2. Make syrup by mixing rice syrup, honey, and water in a saucepan or frying pan. Heat on medium heat, stirring occasionally. Once it boils, turn the heat off and add the chopped ginger, mix and set it aside. 3. In a large mixing bowl, add flour (add salt – optional) and then sesame oil. Mix the flour with the oil by rubbing the mixture thoroughly with your hands, until you feel the oil is all blended in with the flour. 4. Mix the Soju and honey in a separate cup/bowl until the honey is all dissolved. 5. Pour the soju/honey mixture into the flour mixture and gently press the dough to form a ball. 6.Divide the dough in half. Roll out one-half of the dough into a 1/4 to 1/3 inch thick rectangular shape. Cut the dough into 1 inch wide strips and then cut the strips at an angle to make diamond shapes. 7. Yakgwa is fried in 2 different temperatures and this is what makes it tricky. For the first part, oil should be around 265° F (130°C). Yakwa will slowly rise to the top. 8. For the second part, when all the pieces have risen to the top, raise the heat to medium-high to reach normal frying temperature. Continue frying until Yakgwa turns rich brown in color. 9. When Yakgwa pieces turn rich dark brown, remove them from the oil and let the oil drain in a colander lined with a paper towel. 10. Soak fried Yakgwa in prepared ginger honey syrup. 11. Leave for a few min until it has soaked up all the syrup, take it out of the syrup and place it onto a plate. 12.Sprinkle top with chopped pine nuts while it is still wet so the nuts will stick to it.</instructions>
+		</dessert_recipes>
+
+		<dessert_recipes number="two">
+		<e_name>SONGPYEON (RICE CAKES)</e_name>
+		<ingredients>(Rice Powder (ssalgaru): 1. 2 cups wet rice powder per batch (about 16 songpyeon), 2. 4 to 5 ounces pine needles, 3. 1 teaspoon sesame oil. (PINK DOUGH) 1. 2 cups frozen rice powder, 2. 4 tablespoons raspberry juice. (FILLING) 1. ⅓ cup roasted sesame seeds, 2. 1.5 tablespoons sugar, 3. 1 tablespoon honey, 4. pinch salt</ingredients>
+		<instructions>(DOUGH) 1. For each type of dough, sift the rice powder into a bowl. Prepare the flavoring and liquid ingredients (water/juice/mugwort powder/kabocha) for each selected color of dough. Add the specified amount of the solid and/or liquid (making sure it’s boiling hot) to the rice powder, quickly stirring them in with a spoon. (Tip: Hold a teaspoon or two of the liquid and make sure more liquid is needed before adding it.), 2. Knead, pressing and stretching with the heel of the hand. Fold and rotate the dough. Repeat the kneading process for 4 to 5 minutes. (If the dough sticks to your hands or the bowl after some kneading, it’s too wet. Add more rice powder in 1 tablespoon increments. If the dough breaks easily or is too stiff, it’s too dry. Add more boiling hot water in 1 teaspoon increments.), 3. Cover the dough with plastic wrap or a damp towel. Let it rest for 20 to 30 minutes. (FILLING) 1. Roughly grind the sesame seeds in a grinder or blender. Add the sugar, honey and pinch of salt. Mix everything well together until the sugar and honey are evenly distributed. (ASSEMBLE) 1. To assemble, tear off a small piece of the dough enough to make roughly 1-inch ball. Roll tightly between your palms to shape a ball. 2. Make a well in the ball by pressing into it with your thumb, and press outwards, with both of your thumbs, on the inside walls of the well to slightly expand the opening. 3. Place 1/2 teaspoon of the filling in the well. Seal tightly by squeezing the edges together. Squeeze the whole rice cake lightly in your palm to firm it up, and then gently roll between your palms to smooth out the surface. Shape it into a nice crescent shape. Pinch along to create a wing. Repeat until all the dough/filling is used. (STEAM AND FINISH) 1. Boil water in a steamer. Place a thin layer of pine needles or a silicon liner or damp kitchen cloth in the steamer insert. Boil the water over high heat. When it starts to steam, place the rice cakes in the steamer insert without the pieces touching one another. Cover with a thin layer of pine needles, if available. Cover and steam for about 20 minutes. 2. Prepare a big bowl of cold water. Using a long-handed spoon or tong, remove the rice cakes from the steamer. Drop them in the cold water for a quick rinse, removing all the pine needles if used. Transfer the rice cakes to a colander to drain. Lightly coat your hands with the sesame oil and rub the oil on the rice cakes in batches. Serve warm or at room temperature</instructions>
+		</dessert_recipes>
+
+		<dessert_recipes number="three">
+		<e_name>Yaksik</e_name>
+		<ingredients>1. 2 cups sweet rice (aka glutinous rice), chapssal (찹쌀) Standard measuring cup before soaking, 2. 4 ounces peeled fresh, frozen, or canned chestnuts - about 12 to 15 whole chestnuts depending on the sizes ½ to ¾ cup cut pieces, 3. 2.5 ounces jujubes (daechu, 대추) - about 10 to 15 depending on sizes ½ cup, packed, cut pieces, 4. 1 tablespoon pine nuts - optional, 5. 1 tablespoon pumpkin seeds - optional (SEASONING) 1. 2 tablespoons soy sauce, 2. 1/2 cup dark brown sugar use ⅓ cup for less sweet yaksik, 3. 2 tablespoons honey or use about 2 to 2.5 tablespoons more brown sugar, 4. 2 tablespoons sesame oil, 5. 1/4 teaspoon cinnamon powder - optional</ingredients>
+		<instructions>1. Rinse the sweet rice 3 or 4 times until the water is fairly clear. Soak the rice for an hour or up to 2 hours. Drain well while preparing the other ingredients. Tap the strainer to shake off any excess water. 2. Meanwhile, rinse the jujubes. Cut around the seed of each jujube to separate the flesh, and then cut the flesh into small pieces. Reserve the seeds to make jujube water. 3. To make jujube flower decorations, roll the flesh tightly, and cut into thin slices. 4.In a small saucepan, boil 3 cups of water and the jujube seeds over medium high heat until the liquid is reduced to 1.5 cup (15 to 20 minutes). Measure this for the accurate ratio of rice and water. 5. To 1.5 cup of jujube flavored water, add the soy sauce, sugar, and honey. Bring it to a boil and continue to boil for a minute, which will yield about 1 and 3/4 cups of seasoned water. Add the sesame oil.</instructions>
+		</dessert_recipes>
+
+		<dessert_recipes number="four">
+		<e_name>Dalgona</e_name>
+		<ingredients> Sugar and Baking Soda</ingredients>
+		<instructions>1. Add two tablespoons of sugar to a metal ladle, then place directly over medium heat. 2. Stir constantly with a wooden chopstick until the sugar is melted and a light amber color. 3. Remove the ladle from the heat, add a pinch of baking soda, and mix vigorously until incorporated. 4. Pour the mixture onto parchment paper in two equal circles. 5. Use a lightly oiled measuring cup to press the candy into a thin, even layer a bit less than ¼ inch. 6. Let the measuring cup rest there for about 8 seconds, then remove and press a shape in with your cookie cutter. Repeat for the remaining portion of candy.</instructions>
+		</dessert_recipes>
+	</hot_spot>
+	
+	<hot_spot page="reviews">
+		<reviews user="one">
+		<name>Stwbrry Kim</name>
+		<message>A huge thank you for sharing the recipes – it was so yummy and an amazing alternative. I can’t wait to try your other recipes! God Bless!</message>
+		</reviews>
+
+		<reviews user="two">
+		<name>Kim Sunoo</name>
+		<message>So amazing to see all the interesting desserts and sweets, drinks and spicy foods from Korea 🤗. I can't wait to taste them all.</message>
+		</reviews>
+
+		<reviews user="three">
+		<name>Heeseung</name>
+		<message>Thank you so much for sharing this recipe with us! I have always loved yaksik and never made it until today. Your directions were beautiful and the taste was delicious! My mom was very impressed—she told me about how her mom used cheesecloth to make it when she was a child. The InstantPot made this a snap, I can’t wait to make another batch! I didn’t have jujube so I substituted chopped dates, which worked just fine.</message>
+		</reviews>
+
+		<reviews user="four">
+		<name>John Jake</name>
+		<message>Daebaaaaak! The foods in your website are supeeeer delicious. It makes me want to visit Korea again, because I am missing their dishes so much. But thanks to your website, eventhough I am not in Korea, eating foods on your menu's makes me feel that I am in Korea. Thanks a lot!</message>
+		</reviews>
+
+		<reviews user="five">
+		<name>Kyei Loui</name>
+		<message>I finally tried the recipes on your website and it is absolutely delicious. Thank you so much for sharing your recipe with us. Much love to you.</message>
+		</reviews>
+
+		<reviews user="six">
+		<name>Ethan Batumbakal</name>
+		<message>Koreans are the masters of fried chicken! I know because I live in Korea! Definitely add the gochujang (Korean chili paste) for a truly unique and authentic Korean flavor. Your website is perfect for people who don't want to cook.</message>
+		</reviews>
+	</hot_spot>
+
+	<hot_spot page="about_us">
+		<title>About Us</title>
+		<description>Koreans are the masters of fried chicken! I know because I live in Korea! Definitely add the gochujang (Korean chili paste) for a truly unique and authentic Korean flavor. Your website is perfect for people who don't want to cook.</description>
+	</hot_spot>
+
+	<hot_spot page="contact">
+		<name>Hot Spot</name>
+		<message>For more information, feel free to contact us at our official websites below. You can also order your food of choice via these websites. Have a great day!</message>
+		<email>hotspot@gmail.com</email>
+		<facebook>Hot Spot</facebook>
+		<instagram>@hotspot__</instagram>
+		<twitter>@hotspot_ksf</twitter>
+		<youtube>Hot Spot - KoreanSpicyFood</youtube>
+	</hot_spot>
+
+</final_project>
